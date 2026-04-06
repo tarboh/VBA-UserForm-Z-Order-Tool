@@ -19,5 +19,7 @@ VBAのビジュアルエディタを高度なUI設計ツールとして活用す
 オブジェクトに対してQueryInterfaceを実行する関係上、対象フォームのインスタンスが強制的に生成されます。
 この影響で、フォームは表示されないけれどUserForm_Initializeイベントが実行されるという、VBAが本来想定していない挙動が発生します。
 予期せぬクラッシュやフリーズを招く恐れがあるため、取り扱いには十分ご注意ください。 
+
+
 <img width="545" height="427" alt="image" src="https://github.com/user-attachments/assets/23db8f86-43ad-43b8-97de-bd4926c9bd74" />
 <img width="578" height="225" alt="image" src="https://github.com/user-attachments/assets/6dbd0862-401a-4834-8a59-fd301ee152f0" />
